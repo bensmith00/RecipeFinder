@@ -45,22 +45,26 @@ public class startApp {
 		recipesList.add(recipe13);
 		recipesList.add(recipe14);
 		
-		for(List<String> recipe : recipesList) {
-			Collections.sort(recipe);
-		}
-
+		String result = findRecipes.search(recipesList, ingredients);
 		
-		List<List<String>> listToSort = new ArrayList<>(recipesList);
-		listToSort.sort((l1, l2) -> l1.get(0).compareTo(l2.get(0)));
+		System.out.println(result);
+		
+//		for(List<String> recipe : recipesList) {
+//			Collections.sort(recipe);
+//		}
+//
 //		
-		System.out.println(listToSort);
-		
-		Collections.sort(listToSort, (string1, string2) -> Integer.compare(string1.size(), string2.size()));
-		
-		for(List<String> recipe : listToSort) {
-			System.out.print("\n");
-			System.out.print(recipe);
-		}
+//		List<List<String>> listToSort = new ArrayList<>(recipesList);
+//		listToSort.sort((l1, l2) -> l1.get(0).compareTo(l2.get(0)));
+//	
+//		System.out.println(listToSort);
+//		
+//		Collections.sort(listToSort, (string1, string2) -> Integer.compare(string1.size(), string2.size()));
+//		
+//		for(List<String> recipe : listToSort) {
+//			System.out.print("\n");
+//			System.out.print(recipe);
+//		}
 	}
 }
 
