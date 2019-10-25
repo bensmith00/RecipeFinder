@@ -1,8 +1,8 @@
+package whatsForDinner;
+
 import java.io.IOException;
 
-public class startApp {
-
-
+public class StartApp {
 	public static void main(String[] args) throws IOException {
 
 		Menu menu = new Menu();
@@ -11,8 +11,3 @@ public class startApp {
 
 	}
 }
-
-
-	
-	
-	
