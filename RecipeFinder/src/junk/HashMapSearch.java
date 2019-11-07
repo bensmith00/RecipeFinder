@@ -1,4 +1,4 @@
-package whatsForDinner;
+package junk;
 
 import java.io.File;
 import java.io.FileNotFoundException;

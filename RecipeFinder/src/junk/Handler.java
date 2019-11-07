@@ -1,4 +1,4 @@
-package whatsForDinner;
+package junk;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;

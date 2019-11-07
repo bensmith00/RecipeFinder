@@ -1,14 +1,14 @@
-package handlerTests;
+package whatsForDinner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class ListPrintsHashSetString {
+class UserInputTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testUserInput() {
+//		fail("Not yet implemented");
 	}
 
 }
